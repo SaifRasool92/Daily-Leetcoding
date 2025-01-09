@@ -6,9 +6,8 @@ class Solution:
             if word[:pref_length] == pref:
                 count +=1
         return count
-
-
-
+        
+        #2nd method
         # count = 0
         # for word in words:
         #     if word.startswith(pref):
