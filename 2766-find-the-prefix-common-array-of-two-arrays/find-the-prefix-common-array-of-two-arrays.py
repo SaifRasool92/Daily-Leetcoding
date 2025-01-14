@@ -17,7 +17,6 @@ class Solution:
                 seen.add(b)
 
             ans.append(common_count)
-
         return ans
         # ans = []
         # cnt1 = Counter()
