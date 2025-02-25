@@ -3,5 +3,5 @@ class Solution:
         count = 0
         for i in nums:
             if len(str(i)) % 2 == 0:
-                count = count + 1
+                count += 1
         return count
