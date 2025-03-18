@@ -6,7 +6,7 @@ class Solution:
                 return False
         return True  
 
-
+        #.....2nd Method.....
         # freq = {}  
         # for num in nums:
         #     if num in freq:
