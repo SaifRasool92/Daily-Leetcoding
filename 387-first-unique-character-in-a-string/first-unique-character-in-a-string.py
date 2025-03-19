@@ -1,6 +1,5 @@
 class Solution:
     def firstUniqChar(self, s: str) -> int:
-
         myDict = { }
 
         for char in s:
@@ -9,7 +8,6 @@ class Solution:
             else:
                 myDict[char] = 1
         
-
         for i, char in enumerate(s):
             if myDict[char] == 1:
                 return i
