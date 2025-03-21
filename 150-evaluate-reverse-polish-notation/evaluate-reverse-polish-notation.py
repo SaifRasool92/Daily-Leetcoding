@@ -3,8 +3,8 @@ class Solution:
         stack = []
         for token in tokens:   #tokens = ["2","1","+","3","*"]
             if token in ['+','-','*','/']:
-                b = stack.pop()
-                a = stack.pop()
+                b = stack.pop()  
+                a = stack.pop()   
                 
                 if token == '+':
                     res = a + b
