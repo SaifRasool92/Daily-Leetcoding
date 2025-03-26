@@ -1,10 +1,10 @@
 class Solution:
     def finalString(self, s: str) -> str:
-        result = [] 
-        for char in s:  #s = "string"
-            if char == 'i':
+        result = []
+        for i in s:
+            if i == 'i':
                 result.reverse()
             else:
-                result.append(char)
+                result.append(i)
         
         return ''.join(result)
