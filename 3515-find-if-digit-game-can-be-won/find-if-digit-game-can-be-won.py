@@ -12,8 +12,8 @@ class Solution:
             return True
         return False
 
-    #     class Solution:
-    # def canAliceWin(self, nums: List[int]) -> bool:
+    #class Solution:
+    #def canAliceWin(self, nums: List[int]) -> bool:
     #     single_sum = 0
     #     double_sum = 0
         
