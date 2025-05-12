@@ -15,8 +15,8 @@ class Solution:
 
 
 
-        nums1 = sorted(nums1)   # [1, 2, 2, 1] -> sort
-        nums2 = sorted(nums2)   # [2]  -> sort
+        # nums1 = sorted(nums1)   # [1, 2, 2, 1] -> sort
+        # nums2 = sorted(nums2)   # [2]  -> sort
 
         result = []
 
