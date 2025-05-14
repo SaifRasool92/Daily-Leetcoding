@@ -8,3 +8,4 @@ class Solution:
 
         return max(product1, product2)
         
+        # nums = [-1, -2, -3, -4, -5, -6, -7]
