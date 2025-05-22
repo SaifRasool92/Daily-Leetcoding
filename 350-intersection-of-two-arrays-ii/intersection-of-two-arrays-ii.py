@@ -1,23 +1,10 @@
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
-        # nums1 = sorted(nums1)   # [1, 2, 2, 1] -> sort
-        # nums2 = sorted(nums2)   # [2]  -> sort
-
-        result = []
+        answer = []
 
         for num in nums1:
             if num in nums2:
-                result.append(num)
+                answer.append(num)
                 nums2.remove(num)
 
-        return result
-
-
-        # result = []
-        # nums2_copy = nums2.copy()  
-
-        # for num in nums1:
-        #     if num in nums2_copy:
-        #         result.append(num)
-        #         nums2_copy.remove(num) 
-        # return result
+        return answer
