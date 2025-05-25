@@ -1,5 +1,6 @@
 class Solution:
     def smallestIndex(self, nums: List[int]) -> int:
+        
         for i in range(len(nums)):
             digit_sum = 0
             temp = nums[i]
