@@ -13,6 +13,8 @@ class Solution:
             return nums.pop() 
         return -1
 
+
+        # 2nd Method
         # max_value = max(nums)
         # min_value = min(nums)
         # for i in range(len(nums)):
