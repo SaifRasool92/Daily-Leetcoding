@@ -5,8 +5,8 @@ class Solution:
         for i in range(0, len(nums), 2):
             alice = nums[i]
             bob = nums[i + 1]
-            arr.append(bob)   # Bob appends first
-            arr.append(alice) # Then Alice appends
+            arr.append(bob)   
+            arr.append(alice)
         return arr
 
         # n = len(nums)
