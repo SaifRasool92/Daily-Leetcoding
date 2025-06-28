@@ -1,3 +1,13 @@
+# class Solution:
+#     def removeDuplicates(self, s: str) -> str:
+#         result = ""
+#         for ch in s:
+#             if result and result[-1] == ch:
+#                 result = result[:-1]
+#             else:
+#                 result += ch
+#         return result
+
 class Solution:
     def removeDuplicates(self, s: str) -> str:
         stack = []
@@ -9,4 +19,3 @@ class Solution:
                 stack.append(char)  # Add the character to stack
         
         return ''.join(stack)  # Convert stack to string
-
