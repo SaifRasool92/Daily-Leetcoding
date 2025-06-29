@@ -1,4 +1,12 @@
 class Solution:
     def toLowerCase(self, s: str) -> str:
-        low = s.lower()
-        return low
+        # return s.lower()
+
+        result = ''
+        for char in s:
+            if char.isupper():
+                char = char.lower()
+                result += char
+            else:
+                result += char
+        return result
