@@ -1,6 +1,6 @@
 # Daily_Leetcoding
 
-📝 Solutions to LeetCode problems 🧠 | Mastering algorithms & data structures ✏️ | Organized by difficulty with optimized code and clear explanations ✨
+**Tackling LeetCode challenges | Learning algorithms & data structures through trial and error | Sharing solutions and insights to grow and help others**
 
 ---
 
