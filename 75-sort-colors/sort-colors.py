@@ -3,6 +3,7 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """ 
+        
         l=0
         r=len(nums)-1
         i=0
