@@ -12,7 +12,7 @@ class Solution:
         ans = 0
 
         for i in range(32):
-            if (n >> i) & 1:
+            if (n >> i) & 1:  # (Right shift) AND 1
                 ans += 1
 
         return ans
