@@ -1,3 +1,8 @@
+## Leetcode Stats
+<div align="center">
+  <img src="https://leetcard.jacoblin.cool/Saif_Rasool?theme=dark&font=Poppins&ext=heatmap" alt="LeetCode Stats"/>
+</div>
+
 # Daily_LeetCoding
 
 Welcome to the Daily_LeetCoding repository! This repository is dedicated to documenting my journey of solving LeetCode problems on a daily basis. By consistently tackling these coding challenges, I aim to improve my problem-solving skills, algorithmic thinking, and coding proficiency.
@@ -32,3 +37,6 @@ Contributions to Daily_Leetcoding are welcome! If you have a solution to a LeetC
 - Ensure that your code is well-documented and follows best practices.
 - Provide a clear explanation of the solution approach.
 - Use descriptive commit messages and follow the existing directory structure.
+
+
+
