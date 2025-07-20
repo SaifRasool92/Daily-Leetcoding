@@ -16,3 +16,16 @@ class Solution:
             # Step 2: Return the candidate
             return candidate
 
+    # Method 2
+class Solution:
+    def majorityElement(self, nums: List[int]) -> int:
+        count = 0
+        cand = None
+        for num in nums:
+            if count == 0:
+                cand = num
+            if num == cand:
+                count +=1
+            else:
+                count -= 1
+        return cand
