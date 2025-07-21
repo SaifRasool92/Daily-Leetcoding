@@ -19,9 +19,9 @@ class Solution:
     # Method 2
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
-        count = 0
-        cand = None
-        for num in nums:
+        count = 0 # 1
+        cand = None # 3
+        for num in nums: # nums = [3,2,3]
             if count == 0:
                 cand = num
             if num == cand:
