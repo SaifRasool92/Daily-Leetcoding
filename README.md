@@ -1,4 +1,4 @@
-## Leetcode Stats:
+## Leetcode Stats
 <div align="center">
   <img src="https://leetcard.jacoblin.cool/Saif_Rasool?theme=dark&font=Poppins&ext=heatmap" alt="LeetCode Stats"/>
 </div>
