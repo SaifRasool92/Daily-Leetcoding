@@ -21,3 +21,5 @@ class Solution:
         nums_2 = list(set2 - set1)
         
         return [nums_1, nums_2]
+
+         
