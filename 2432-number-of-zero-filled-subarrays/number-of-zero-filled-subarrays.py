@@ -10,3 +10,14 @@ class Solution:
                 res += r - l + 1
         
         return res
+
+class Solution:
+    def zeroFilledSubarray(self, nums: List[int]) -> int:
+        count = res = 0
+        for x in nums:
+            if x == 0:
+                count += 1
+                res += count
+            else:
+                count = 0
+        return res
