@@ -1,6 +1,8 @@
-## Leetcode Stats
+## Leetcode Stats:
 <div align="center">
-  <img src="https://leetcard.jacoblin.cool/Saif_Rasool?theme=dark&font=Poppins&ext=heatmap" alt="LeetCode Stats"/>
+  <img src="https://leetcard.jacoblin.cool/Saif_Rasool?theme=dark&font=Poppins&ext=heatmap" alt="LeetCode Stats" height=300px/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://leetcode-badge-showcase.vercel.app/api?username=Saif_Rasool&theme=dark&animated=true" alt="LeetCode Badges" height=300px/>
 </div>
 
 # Daily_LeetCoding
