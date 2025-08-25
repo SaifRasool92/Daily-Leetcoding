@@ -18,7 +18,7 @@ class Solution:
 
         while n > 0:
 
-            digit = n%10
+            digit = n % 10
 
             sum += digit
             product *= digit
