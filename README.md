@@ -1,8 +1,12 @@
 ## Leetcode Stats:
 <div align="center" width='100%'>
+  <a href='https://www.linkedin.com/in/saif-ur-rasool/'>
   <img src="https://leetcard.jacoblin.cool/Saif_Rasool?theme=dark&font=Poppins&ext=heatmap" alt="LeetCode Stats" height=250px/>
+  </a>
   &nbsp;&nbsp;&nbsp;
+  <a href='https://www.linkedin.com/in/saif-ur-rasool/'>
   <img src="https://leetcode-badge-showcase.vercel.app/api?username=Saif_Rasool&theme=dark&animated=true" alt="LeetCode Badges" height=250px/>
+  </a>
 </div>
 
 # Daily_LeetCoding
