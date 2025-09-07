@@ -11,3 +11,15 @@ class Solution:
 
         return result
         
+class Solution:
+    def sumZero(self, n: int) -> List[int]:
+        res = []
+        if n % 2 != 0:
+            n -= 1
+            res.append(0)
+        cur = 1
+        for i in range(0,n,2):
+            res.append(cur)
+            res.append(-cur)
+            cur += 1
+        return res
