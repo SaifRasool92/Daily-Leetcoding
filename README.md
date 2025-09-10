@@ -26,11 +26,47 @@ This repository contains solutions to various LeetCode problems categorized by t
 
 ## Getting Started
 
-To get started with Daily_Leetcoding, follow these steps:
+Ensure you have the following installed:
 
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/SaifRasool92/Daily-Leetcoding.git
+- Python 3.x
+- A package manager like `pip` to install dependencies.
+
+### Steps to Install
+
+1. Clone the repository:
+    ```bash
+    https://github.com/SaifRasool92/Daily-Leetcoding.git
+    ```
+
+2. Navigate into the project directory:
+    ```bash
+    cd project-name
+    ```
+
+3. (Optional) Create a virtual environment:
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```
+
+4. Install dependencies (if any):
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. Run the solution in your Python environment:
+    ```bash
+    python solution.py
+    ```
+
+2. Example usage:
+    ```python
+    solution = Solution()
+    result = solution.twoSum([2, 7, 11, 15], 9)
+    print(result)  # Output: [0, 1]
+    ```
 
 ## LeetSync Integration
 
