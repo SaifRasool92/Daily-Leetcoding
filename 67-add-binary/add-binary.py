@@ -6,7 +6,7 @@ class Solution:
 
         # Step 2: Convert binary string 'b' into decimal (base 10)
         decimal_b = int(b, 2)   # Example: int("1", 2) = 1
-
+        
         # Step 3: Add the two decimal values
         total = decimal_a + decimal_b   # Example: 3 + 1 = 4
 
@@ -16,3 +16,4 @@ class Solution:
 
         # Step 5: Return the final binary string
         return binary_sum
+        
