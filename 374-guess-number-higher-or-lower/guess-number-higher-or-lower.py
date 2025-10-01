@@ -8,7 +8,7 @@ class Solution:
     def guessNumber(self, n: int) -> int:
         l, r = 1, n
         while True:
-            m = (l + r) // 2 # edv apply \U0001f448
+            m = (l + r) // 2 # edv apply \U0001f448 👈
             res = guess(m)
             if res > 0:
                 l = m + 1
