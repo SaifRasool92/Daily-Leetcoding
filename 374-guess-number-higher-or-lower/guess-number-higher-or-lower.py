@@ -4,6 +4,7 @@
 #          1 if num is lower than the picked number
 #          otherwise return 0
 # def guess(num: int) -> int:
+
 class Solution:
     def guessNumber(self, n: int) -> int:
         l, r = 1, n
