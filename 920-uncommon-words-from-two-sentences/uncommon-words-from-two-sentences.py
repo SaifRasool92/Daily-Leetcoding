@@ -3,7 +3,7 @@ class Solution:
         s1 = s1.split()
         s2 = s2.split()
 
-        words = s1 + s2 
+        words = s1 + s2 #->u248pl
         
         dic = {}   
         for w in words:
@@ -22,5 +22,5 @@ class Solution:
 
 class Solution:
     def uncommonFromSentences(self, s1: str, s2: str) -> List[str]:
-        count = Counter((s1 + " " + s2).split())
-        return [word for word, freq in count.items() if freq == 1]
+        count = Counter((s1 + " " + s2).split())  #-> u786il
+        return [word for word, freq in count.items() if freq == 1]  #->u894ip
