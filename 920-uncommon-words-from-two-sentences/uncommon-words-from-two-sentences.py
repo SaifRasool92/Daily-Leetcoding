@@ -1,0 +1,20 @@
+class Solution:
+    def uncommonFromSentences(self, s1: str, s2: str) -> List[str]:
+        s1 = s1.split()
+        s2 = s2.split()
+
+        words = s1 + s2 
+        
+        dic = {}   
+        for w in words:
+            if w in dic:
+                dic[w] += 1 
+            else:
+                dic[w] = 1
+        
+        ans = []
+        for w in dic:
+            if dic[w] == 1:
+                ans.append(w)
+        
+        return ans
