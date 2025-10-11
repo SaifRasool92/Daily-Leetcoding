@@ -1,0 +1,3 @@
+testcase*
+source/__pycache__/
+*.bak
