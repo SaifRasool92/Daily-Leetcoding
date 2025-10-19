@@ -23,16 +23,16 @@ class Solution:
         Output: "x"
         Explanation: There are no characters in letters that is lexicographically greater than 'z' so we return letters[0].
         """
-        l = 0
-        r = len(letters) - 1
-        result = letters[0]  # default wrap-around
-
+        l, r = 0, len(letters) - 1
+        ans = letters[0] 
+        
         while l <= r:
             mid = (l + r) // 2
             if letters[mid] > target:
-                result = letters[mid]    # candidate
+                ans = letters[mid]    
                 r = mid - 1
-            else:   # letters[mid] <= target
+            else:
                 l = mid + 1
         
-        return result
+        return ans
+
