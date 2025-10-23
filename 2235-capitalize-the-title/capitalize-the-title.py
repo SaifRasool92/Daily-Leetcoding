@@ -4,10 +4,7 @@ class Solution:
         ans = []
         for word in title_lst:
             if len(word) <= 2:
-                w = word.lower()
-                ans.append(w)
+                ans.append(word.lower())
             else:
-                w =word.title()
-                ans.append(w)
-        ans = " ".join(ans)
-        return ans
+                ans.append(word.title())
+        return " ".join(ans)
