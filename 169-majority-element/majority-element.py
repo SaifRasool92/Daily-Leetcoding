@@ -33,7 +33,6 @@ class Solution:
 
 
 
-# """ Better Approch """
 # class Solution:
 #     def majorityElement(self, nums: List[int]) -> int:
         
@@ -66,7 +65,7 @@ class Solution:
 
         
         
-# """Naive Approch"""                         
+                      
 # class Solution:
 #     def majorityElement(self, nums: List[int]) -> int:
 #     majority = -1
