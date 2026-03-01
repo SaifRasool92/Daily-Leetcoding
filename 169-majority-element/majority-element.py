@@ -9,16 +9,24 @@ class Solution:
         
         # nums = [2,2,1,1,1,2,2]
         for num in nums:
-            if num in freq:
-                freq[num] += 1
-            else:
-                freq[num] = 1
-                
+            # if num in freq:
+            #     freq[num] += 1
+            # else:
+            #     freq[num] = 1
+            freq[num] = freq.get(num, 0) + 1  # Update frequency
+             
             if freq[num] > maj:
                 ans = num
                 
         return ans
         
+        
+        
+        
+        
+        
+        
+     
         
         
         
