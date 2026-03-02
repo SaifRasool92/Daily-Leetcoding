@@ -1,31 +1,3 @@
-# class Solution:
-#     def findMissingAndRepeatedValues(self, grid: List[List[int]]) -> List[int]:
-#         n = len(grid) ** 2
-#         grid_arr = []
-#         for nums in grid:
-#             for num in nums:
-#                 grid_arr.append(num)
-#         unique_ele = set(grid_arr)
-#         total_sum = n * (n+1) // 2
-#         grid_sum = sum(unique_ele)
-#         missing = total_sum - grid_sum
-        
-#         return [9, missing]
-        
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
 class Solution:
     def findMissingAndRepeatedValues(self, grid: List[List[int]]) -> List[int]:
         n = len(grid) ** 2
@@ -43,6 +15,7 @@ class Solution:
         for num in elements:
             if elements.count(num) > 1:
                 repeat = num
+                break
         
         return [repeat, missing]
 
