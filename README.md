@@ -1,13 +1,10 @@
-## Leetcode Stats:
 <div align="center" width='100%'>
-  <a href='https://www.linkedin.com/in/saif-ur-rasool/'>
-  <img src="https://leetcard.jacoblin.cool/Saif_Rasool?theme=dark&font=Poppins&ext=heatmap" alt="LeetCode Stats" height=250px/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href='https://www.linkedin.com/in/saif-ur-rasool/'>
-  <img src="https://leetcode-badge-showcase.vercel.app/api?username=Saif_Rasool&theme=dark&animated=true" alt="LeetCode Badges" height=250px/>
+  <a href='https://leetcode.com/u/Saif_Rasool/'>
+  <img src="https://github.com/user-attachments/assets/e0be9d68-5371-4813-8dcb-24d0577fbe33" alt="LeetCode" height=250px/>
   </a>
 </div>
+
+
 
 # Daily_LeetCoding 
 
@@ -90,4 +87,15 @@ Contributions to Daily_Leetcoding are welcome! If you have a solution to a LeetC
     </picture>
   </a>
 
+</div>
+
+## Leetcode Stats:
+<div align="center" width='100%'>
+  <a href='https://www.linkedin.com/in/saif-ur-rasool/'>
+  <img src="https://leetcard.jacoblin.cool/Saif_Rasool?theme=dark&font=Poppins&ext=heatmap" alt="LeetCode Stats" height=250px/>
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href='https://www.linkedin.com/in/saif-ur-rasool/'>
+  <img src="https://leetcode-badge-showcase.vercel.app/api?username=Saif_Rasool&theme=dark&animated=true" alt="LeetCode Badges" height=250px/>
+  </a>
 </div>
